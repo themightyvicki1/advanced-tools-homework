@@ -79,6 +79,7 @@ p #about {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  padding-bottom: 30px;
 }
 
 .email-link:hover {
@@ -112,5 +113,29 @@ p #about {
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+/* make the about me on second page smaller for smaller screen and add padding between */
+@media (max-width: 576px) {
+  #about-me-header {
+    font-size: 46px;
+  }
+  .col-sm-4 {
+    padding-bottom: 30px;
+  }
+
+  .col-6 p {
+    text-align: center;
+  }
+
+  .col-6 h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .launch {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
