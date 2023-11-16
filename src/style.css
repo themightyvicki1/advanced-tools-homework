@@ -138,4 +138,14 @@ body {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  #my-name {
+    font-size: 36px;
+  }
+  #hi {
+    font-size: 24px;
+  }
+  #front-end {
+    font-size: 18px;
+  }
 }
