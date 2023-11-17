@@ -114,36 +114,38 @@ p #about {
 
 body {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* make the about me on second page smaller for smaller screen and add padding between */
 @media (max-width: 576px) {
   #about-me-header {
     font-size: 46px;
+    line-height: 1.5;
   }
   .col-sm-4 {
     padding-bottom: 30px;
   }
 
-  .col-6 p {
+  .col-sm-6 p {
     text-align: center;
   }
 
-  .col-6 h2 {
+  .col-sm-6 h2 {
     text-align: center;
     font-size: 32px;
   }
   .launch {
+    display: block;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 0 20px;
   }
 
   #my-name {
     font-size: 36px;
   }
   #hi {
-    font-size: 24px;
+    font-size: 28px;
   }
   #front-end {
     font-size: 18px;
